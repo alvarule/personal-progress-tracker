@@ -52,8 +52,8 @@
 
 ### For any queries or issues you can contact me on:
 - Telegram - @Athrv_7249 
-- [Instagram](https://www.instagram.com/_athrv_7249/) 
-- [Twitter](https://twitter.com/AtharvaVarule)
+- Instagram - [@_athrva_7249](https://www.instagram.com/_athrv_7249/) 
+- Twitter - [@AtharvaVarule](https://twitter.com/AtharvaVarule)
 
 
 ## Thanks to:
