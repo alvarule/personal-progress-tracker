@@ -60,5 +60,7 @@
 - [CodeWithHarry for Python](https://youtube.com/playlist?list=PLu0W_9lII9agICnT8t4iYVSZ3eykIAOME)
 - [CodeWithHarry for Tkinter](https://youtube.com/playlist?list=PLu0W_9lII9ajLcqRcj4PoEihkukF_OTzA)
 - My Trainer of workshop for Idea
+- [Cyber Zeel - Spin The Hack for Slack Updates Idea](https://youtu.be/y2UjqiqbvJE)
 - [Tutorials Point for Tkinter Splash Screen](https://www.tutorialspoint.com/how-to-create-a-splash-screen-using-tkinter)
 - [Ene Uran for Tkinter Centering Window Code](https://www.daniweb.com/programming/software-development/threads/66181/center-a-tkinter-window)
+
