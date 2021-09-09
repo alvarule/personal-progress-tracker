@@ -1,4 +1,3 @@
-
 # Importing required packages
 from tkinter import *
 import tkinter.messagebox as tmsg
