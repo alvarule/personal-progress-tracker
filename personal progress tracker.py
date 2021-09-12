@@ -378,6 +378,10 @@ def setTodaysGoals():
 
         # list for storing today's goals
         todaysGoals = []
+        # if today's goals file already exists, then store its content in todaysGoals
+        if f"{today}.txt" in os.listdir():
+            with open(f"{today}.txt", 'r') as f:
+                todaysGoals = f.readlines()
         # creating StringVar which will store the list of today's goals and this var we will use as value to the option 'listvariable' of Listbox
         todaysGoals_var = StringVar(value=todaysGoals)
         # creating StringVar which we will use as value to the option 'textvariable' of Entry widget
@@ -571,7 +575,7 @@ def getUserInfo():
     window = Tk()
     window.geometry(centerWindow(540, 600, ws, hs))
     window.resizable(False, False)
-    window.title("User Account")
+    window.title("User Registration")
     window.config(background="#074167")
     try:
         window.wm_iconbitmap("../progress.ico")
@@ -591,7 +595,7 @@ def getUserInfo():
     # headFrame for packing Heading of the window
     headFrame = Frame(frame)
     headFrame.pack(side=TOP, fill=X)
-    Label(headFrame, text="Account Details", font=("Gill Sans MT", 18, "bold"), pady=12).pack(fill=X, pady=2)
+    Label(headFrame, text="User Details", font=("Gill Sans MT", 18, "bold"), pady=12).pack(fill=X, pady=2)
     
     # Label just for spacing adjustment (its text's color is white i.e. invisible)
     Label(frame, text="separator", foreground="white").pack(side=TOP, fill=X)
