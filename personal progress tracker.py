@@ -287,26 +287,13 @@ def setTodaysGoals():
     # Else if today's entry is present in 'tracking_file.txt' that means todays goals are already set so the program will inform user about it
     # Else the program will ask user to set todays goals
     if (f"{today}" in open('tracking_file.txt').readlines()) and "update.txt" in os.listdir() and open('update.txt').read()=="False":
-        ans = tmsg.askyesno("Info", "You have already checked in Today!\nDo you want to edit the list of your today\'s goals?")
-        if ans == True:
-            os.system('attrib -h "tracking_file.txt"')
-            with open('tracking_file.txt', 'w') as f:
-                f.write('')
-            os.system('attrib +h "tracking_file.txt"')
-            setTodaysGoals()
-            
         ans = tmsg.askyesno("Info", "Your updates are yet to be sent on Slack\nDo you want to send them now?")
         if ans == True:
             sendUpdate()
     
     elif f"{today}" in open('tracking_file.txt').readlines():
-        ans = tmsg.askyesno("Info", "You have already checked in Today! (confirming yesterday\'s goals and/or setting goals for today)\nDo you want to edit the list of your today\'s goals?")
-        if ans == True:
-            os.system('attrib -h "tracking_file.txt"')
-            with open('tracking_file.txt', 'w') as f:
-                f.write('')
-            os.system('attrib +h "tracking_file.txt"')
-            setTodaysGoals()
+        tmsg.showinfo("Info", "You have already checked in Today! (confirming yesterday\'s goals and/or setting goals for today)")
+
 
     else:
         # |------------------------------------------|Nested Functions start|-----------------------------------------|
