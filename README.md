@@ -51,6 +51,7 @@
 ## Contact Me:
 
 ### For any queries or issues you can contact me on:
+- LinkedIn - [Atharva Varule](https://www.linkedin.com/in/alvarule/)
 - Telegram - @Athrv_7249 
 - Instagram - [@_athrv_7249](https://www.instagram.com/_athrv_7249/) 
 - Twitter - [@AtharvaVarule](https://twitter.com/AtharvaVarule)
